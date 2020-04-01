@@ -13,7 +13,14 @@ class App < Sinatra::Base
         #@team = params[:team]
         @team = params["team"]["name"]
         @motto = params["team"]["motto"]
-        binding.pry
+
+        # @hero_name = []
+
+        # @hero_power = []
+        # @hero_bio = []
+
+        @team_members = params["team"]["members"]
+        
         erb :team
     end
 end
