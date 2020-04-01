@@ -21,7 +21,7 @@ It should look something like this:
 
 1. Create a route that responds to a POST request at `/teams`.
 2. Have the form send a POST request to this route.
-2. Upon submission, render a template that displays the submitted team data and each member's data.
+3. Upon submission, render a template that displays the submitted team data and each member's data.
 
 ## Final Output
 
