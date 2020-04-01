@@ -1,3 +1,12 @@
+<h1> </h1>
 
 
+<h2> <%= @team_name %> </h2>
+<p> Team Motto: <%= @team_motto %> !</p>
+<h2> Superheros! </h2>
 
+<%@heroes.map do |hero| %>
+<h3> Hero Name: <%= hero.name %> </h3>
+ Hero Power: <%= hero.power %> 
+ Hero Biography: <%= hero.bio %> 
+<%end%>
